@@ -1,21 +1,12 @@
 package IOTePrototipagem;
 
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.*;
 import java.io.IOException;
-import java.io.StringWriter;
-import java.sql.Date;
 import java.text.Normalizer;
 import java.util.ArrayList;
-import javax.swing.JOptionPane;
-import java.util.Scanner;
-
 import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
 public class Placa {
