@@ -46,8 +46,6 @@ public class Home extends JavaFXClass
         QuartaPlaca.GetGPIO();
         QuartaPlaca.Divisao();
 
-        
-
         Placas[3] = QuartaPlaca.Nome;
 
         System.out.println("\nForam inseridas as placas: \n");
@@ -57,10 +55,6 @@ public class Home extends JavaFXClass
             System.out.println(i + "\n");
         }
 
-        
         JavaFXClass.launch();    
-    }
-
-    
-    
+    }  
 }

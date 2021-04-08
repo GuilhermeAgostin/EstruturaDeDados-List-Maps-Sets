@@ -76,7 +76,6 @@ public class Placa {
         ObjectMapper mapper = new ObjectMapper();
         try {
             json = mapper.writeValueAsString(placa);
-            // System.out.println("ResultingJSONstring = " + json);
             System.out.println(json);
         } catch (JsonProcessingException e) {
             e.printStackTrace();
