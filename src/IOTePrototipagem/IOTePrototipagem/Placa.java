@@ -1,13 +1,15 @@
 package IOTePrototipagem;
 
-import java.util.*;
 import java.io.IOException;
 import java.text.Normalizer;
 import java.util.ArrayList;
-import org.codehaus.jackson.JsonGenerationException;
-import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.ObjectMapper;
+import java.util.HashMap;
+import java.util.HashSet;
+
+import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Placa {
     public String Nome;
