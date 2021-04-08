@@ -27,46 +27,44 @@ public class JavaFXClass extends Application { // Toda classe principal de JavaF
         raiz.setTranslateY(20);
 
         Label lblTitulo = new Label("Cadastro de uma nova placa");
-        lblTitulo.setUnderline(true); // 1
+        lblTitulo.setUnderline(true); 
 
         TextField txtNome = new TextField();
-        HBox hbNome = new HBox(10); // 2
+        HBox hbNome = new HBox(10); 
         hbNome.getChildren().addAll(new Label("Nome"), txtNome);
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         TextField txtCor = new TextField();
-        HBox hbCor = new HBox(10); // 2
-        hbCor.getChildren().addAll(new Label("Cor    "), txtCor); // dei esses espaços para ficar alinhado o texto
-
+        HBox hbCor = new HBox(10); 
+        hbCor.getChildren().addAll(new Label("Cor    "), txtCor); 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
         
         TextField txtAnoDeLancamento = new TextField();
-        HBox hbAnoDeLancamento = new HBox(10); // 2
-        hbAnoDeLancamento.getChildren().addAll(new Label("Ano   "), txtAnoDeLancamento); // dei esses espaços para ficar alinhado o texto
+        HBox hbAnoDeLancamento = new HBox(10); 
+        hbAnoDeLancamento.getChildren().addAll(new Label("Ano   "), txtAnoDeLancamento); 
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         TextField txtPaisFabricacao = new TextField();
-        HBox hbPaisFabricacao = new HBox(10); // 2
-        hbPaisFabricacao.getChildren().addAll(new Label("Pais de fabricação"), txtPaisFabricacao); // dei esses espaços para ficar alinhado o texto
-
+        HBox hbPaisFabricacao = new HBox(10); 
+        hbPaisFabricacao.getChildren().addAll(new Label("Pais de fabricação"), txtPaisFabricacao); 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         TextField txtEstadoFabricacao = new TextField();
-        HBox hbEstadoFabricacao = new HBox(10); // 2
-        hbEstadoFabricacao.getChildren().addAll(new Label("Estado de fabricação"), txtEstadoFabricacao); // dei esses espaços para ficar alinhado o texto
+        HBox hbEstadoFabricacao = new HBox(10); 
+        hbEstadoFabricacao.getChildren().addAll(new Label("Estado de fabricação"), txtEstadoFabricacao);
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         TextField txtGPIO = new TextField();
-        HBox hbGPIO = new HBox(10); // 2
-        hbGPIO.getChildren().addAll(new Label("Quantidade de GPIO's"), txtGPIO); // dei esses espaços para ficar alinhado o texto
+        HBox hbGPIO = new HBox(10); 
+        hbGPIO.getChildren().addAll(new Label("Quantidade de GPIO's"), txtGPIO); 
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         HBox hbSo = new HBox(20);
-        ToggleButton tbBluetooth = new ToggleButton("Bluetooth"); // 3
+        ToggleButton tbBluetooth = new ToggleButton("Bluetooth"); 
 
         ToggleButton tbWIFI = new ToggleButton("Wi-Fi");
 
@@ -74,9 +72,9 @@ public class JavaFXClass extends Application { // Toda classe principal de JavaF
 
         ToggleButton tbNada = new ToggleButton("Nenhuma");
 
-        final ToggleGroup tgSo = new ToggleGroup(); // 4
+        final ToggleGroup tgSo = new ToggleGroup(); 
 
-        tgSo.getToggles().addAll(tbBluetooth, tbWIFI, tbBTWF, tbNada); // 5
+        tgSo.getToggles().addAll(tbBluetooth, tbWIFI, tbBTWF, tbNada); 
 
         hbSo.getChildren().addAll(new Label("Quais tipos de conexão essa placa fornece?"), tbBluetooth, tbWIFI, tbBTWF, tbNada);
 
@@ -86,7 +84,7 @@ public class JavaFXClass extends Application { // Toda classe principal de JavaF
         HBox hbSistemasDeControle = new HBox(10); // se eu deixar esse valor muito grande todas as seleções vão ficar
                                                   // muito longe uma da outra
 
-        RadioButton rbMicroprocessador = new RadioButton("Microprocessador"); // 6
+        RadioButton rbMicroprocessador = new RadioButton("Microprocessador"); 
 
         RadioButton rbMicrocontrolador = new RadioButton("Microcontrolador");
 
